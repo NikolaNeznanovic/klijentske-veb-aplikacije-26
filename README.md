@@ -1,2 +1,3 @@
-# KlijentskeVebAplikacije26
-Izvorni kod sa vezbi iz predmeta KVA na Univerzitetu Singidunum.
+# Klijentske veb aplikacije 2026
+
+Izvorni kod za vezbi iz predmeta KVA na Univerzitetu Singidunum.

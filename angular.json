@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "c5bef4fb-0e1e-4d1f-9769-519f84c0bc69"
+    "analytics": false
   },
   "newProjectRoot": "projects",
   "projects": {
-    "klijentske-veb-aplikacije-26": {
+    "klijentske-veb-aplikacije-2026": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -26,6 +26,7 @@
               }
             ],
             "styles": [
+              "src/material-theme.scss",
               "src/styles.css"
             ]
           },
@@ -57,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "klijentske-veb-aplikacije-26:build:production"
+              "buildTarget": "klijentske-veb-aplikacije-2026:build:production"
             },
             "development": {
-              "buildTarget": "klijentske-veb-aplikacije-26:build:development"
+              "buildTarget": "klijentske-veb-aplikacije-2026:build:development"
             }
           },
           "defaultConfiguration": "development"
